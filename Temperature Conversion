@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <style>
+        body {
+            margin: 0;
+            box-sizing: border-box;
+            background-image: url(4k-mountain-1obt47t74ynfn450.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            height: 50vh;
+            position: relative;
+        }
+
+        .container {
+            position: absolute;
+            top: 70%;
+            left: 35%;
+        }
+        fieldset{
+            backdrop-filter: blur(10px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form style="width: 100%; padding: 40px;">
+            <fieldset style="border-radius: 10px;">
+                <h2 align="center">Temperature Conversion</h2>
+                <center>
+                <label>
+                    <select id="se">
+                        <option>Celsius</option>
+                        <option>Kelvin</option>
+                        <option>Fahrenheit</option>
+                    </select>
+                </label><input type="text" placeholder="Enter value" id="one">
+                <br>
+                <h3>Convert to</h3>
+                <label align="center">
+                    <select id="con">
+                        <option>Celsius</option>
+                        <option>Kelvin</option>
+                        <option>Fahrenheit</option>
+                    </select>
+                </label>
+                <br>
+                <br>
+                <button id="submitButton" onclick="convert()" type="button"><b>Convert!</b></button>
+                <h4 id="second"></h4></center>
+            </fieldset>
+        </form>
+    </div>
+    <script>
+        function convert() {
+            var inputUnit = document.getElementById("se").value;
+            var outputUnit = document.getElementById("con").value;
+            var inputValue = parseFloat(document.getElementById("one").value);
+            var result=0;
+
+            // Perform temperature conversion calculation here and update the result in the "second" input field
+            if(inputUnit=="Celsius"){
+                if(outputUnit==inputUnit){
+                    result=inputValue + "°C" ;
+                }
+                else if(outputUnit=="Kelvin"){
+                    result=(inputValue+273.15)+" K";
+                }
+                else{
+                    result=((inputValue * (9/5)) + 32)+"°F";
+                }
+            }
+            else if(inputUnit=="Kelvin"){
+                if(outputUnit=="Celsius"){
+                    result=(inputValue - 273.15)+ "°C";
+                }
+                else if(outputUnit=="Fahrenheit"){
+                    result=((inputValue - 273.15) * 9/5 + 32)+ "°F";
+                }
+                else{
+                    result=inputValue+" K";
+                }
+            }
+            else{
+                if(outputUnit=="Celsius"){
+                    result=((inputValue - 32) * 5/9)+ "°C";
+                }
+                else if(outputUnit=="Kelvin"){
+                    result=((inputValue - 32) * 5/9 + 273.15)+ "°K";
+                }
+                else{
+                    result=(inputValue)+"°F";
+                }
+            }
+
+            document.getElementById("second").innerHTML = "Result's " +result;
+        }
+    </script>
+</body>
+</html>
