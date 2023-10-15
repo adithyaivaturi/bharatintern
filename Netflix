@@ -27,7 +27,7 @@
             .one{
                 height: 100%;
                 width: 100%;
-                background:linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)), url(WhatsApp\ Image\ 2023-10-08\ at\ 16.34.43_bd697978.jpg);
+                background:linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)), url(https://assets.nflxext.com/ffe/siteui/vlv3/ab180a27-b661-44d7-a6d9-940cb32f2f4a/7fb62e44-31fd-4e1f-b6ad-0b5c8c2a20ef/IN-en-20231009-popsignuptwoweeks-perspective_alpha_website_large.jpg);
                 background-size: 100%;
                 position: relative;
             }
@@ -290,7 +290,6 @@
 
            input[type="radio"]{
             display: none;
-
            }
            .fre .content{
             background: #303030;
@@ -350,15 +349,13 @@
            .inner a{
             color: rgb(225, 225, 225);
            }
-
-
         </style>
     </head>
     <body>
 
         <!--div1 start-->
         <div class="one">
-            <img src="WhatsApp Image 2023-10-08 at 16.30.51_b053cf47.jpg" height="6%" width="7%" >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSPnAAJJt--QQEG6KWKxpuqpMynBORmy-RPANcea6ML6x4obE8" height="6%" width="7%" style="background: none;">
             <section>
             
                 <span class="material-symbols-outlined" style="color: whitesmoke; position: absolute; top: 3px; left: 7px;" >
@@ -367,7 +364,6 @@
                     <option ><span style="font-weight: bolder; width: 1004px;"> English</span></option>
                     <option><span style="font-weight: bolder;">Hindi</span></option>
                 </select>
-
             </section>
             <button type="submit" id="bu1">Sign In</button>
             <center><h1><b>The biggest Indian hits. The best Indian stories. All streaming here.</b></h1>
@@ -377,7 +373,6 @@
             </center>
             <hr style="height: 10px;background-color: rgb(39, 39, 39);position: absolute; width: 100%;top:98%;border: none; height: 7%;">
         </div>
-
 
         <!--div2 start-->
         <div class="two">
@@ -390,21 +385,20 @@
                 <video width="512" height="305" autoplay="" playinline="" muted="" loop="">
                     <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" type="video/mp4">
                   </video>
-                  <img src="tv.png"></section>
+                  <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"></section>
                   <hr style="height: 10px;background-color: rgb(39, 39, 39);position: absolute; width: 100%;top: 98%;border: none; height: 7%;">
         </div>
 
-
         <!--div3 start-->
         <div class="three">
-           <img src="mobile-0819.jpg" alt="mobile-0819" >
+           <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="mobile-0819" >
             <fieldset style="width: 25%;border-color: whitesmoke;">
         <table >
                 <tr >
-                    <td><a><img src="boxshot.png" alt="boxshot" height="40%" width="40%" style="padding-right: 0px;"> </td>
+                    <td><a><img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png" alt="boxshot" height="40%" width="40%" style="padding-right: 0px;"> </td>
                     <td><center><span style="font-family: Arial, Helvetica, sans-serif; padding-left: 0px; text-align: left;"><span style="padding:0px ;color: whitesmoke;">Stranger Things<br>
                     <span style="color: blue; padding-top: 0px ;">Downloading...</span></span></span></a></center></td>
-                    <td><img src="download-icon.gif" height="45px" width="45px"></td>
+                    <td><img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif" height="45px" width="45px"></td>
                 </tr>
 
             </table>
@@ -414,7 +408,6 @@
 something to watch.</pre>
             <hr style="height: 10px;background-color: rgb(39, 39, 39);position: absolute; width: 100%;top:98%;border: none; height: 7%;">
         </div>
-
 
         <!--div4 start-->
         <div class="four">
@@ -427,24 +420,19 @@ something to watch.</pre>
                 <video width="500" height="260" autoplay="" playinline="" muted="" loop="">
                     <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v" type="video/mp4">
                   </video>
-                  <img src="device-pile-in.png">
+                  <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png">
             </section>
                   <hr style="height: 10px;background-color: rgb(39, 39, 39);position: absolute; width: 100%;top: 98%;border: none; height: 7%;">
-
         </div>
-
-
 
         <!--div5 start-->
         <div class="five">
-            <img src="AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png" alt="">
+            <img src="https://occ-0-4829-3663.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d" alt="">
             <h1 style="color: whitesmoke;">Create profiles for kids</h1>
              <pre>Send children on adventures with their favourite
 characters in a space made just for them—free 
 with your membership.</pre>
             <hr style="height: 10px;background-color: rgb(39, 39, 39);position: absolute; width: 100%;top:98%;border: none; height: 7%;">
-
-
         </div>
 
         <!--div6 start-->
